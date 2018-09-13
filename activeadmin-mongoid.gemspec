@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
   gem.license       = 'MIT'
 
   gem.add_runtime_dependency 'mongoid',         ['>= 4.0.0.beta1', '< 5']
-  gem.add_runtime_dependency 'rails',           '~> 4.0'
+  gem.add_runtime_dependency 'rails',           ['>= 4.0', '< 5']
   gem.add_runtime_dependency 'activeadmin',     ['>= 0.6.1', '< 2']
 
   # strict requirements for ruby 1.9.3 env. (mainly for travis-ci deployment)
