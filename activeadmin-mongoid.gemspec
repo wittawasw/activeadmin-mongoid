@@ -26,7 +26,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'inherited_resources', '~> 1.6'
   gem.add_runtime_dependency 'nokogiri', '~> 1.6'
   gem.add_runtime_dependency 'mime-types', '~> 2.99'
-  gem.add_runtime_dependency 'public_suffix', '~> 1.4'
+  gem.add_runtime_dependency 'public_suffix', '~> 3.0.2'
 
   gem.add_development_dependency 'rspec-rails',  '~> 2.14'
 end
